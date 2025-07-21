@@ -24,9 +24,6 @@ public class Airplane {
         this.year = year;
     }
 
-    public void setLength(int length) {
-        this.length = length;
-    }
 
     public void setWeight(int weight) {
         this.weight = weight;

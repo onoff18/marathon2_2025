@@ -2,9 +2,9 @@ package day9.Task2;
 
 public class Triangle extends Figure {
 
-    private double sideA;
-    private double sideB;
-    private double sideC;
+    private final double sideA;
+    private final double sideB;
+    private final double sideC;
 
     public Triangle(double sideA, double sideB, double sideC, String color) {
         super.setColor(color);

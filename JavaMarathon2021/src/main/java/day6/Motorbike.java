@@ -2,9 +2,9 @@ package day6;
 
 public class Motorbike {
 
-    private String color;
-    private String model;
-    private int year;
+    private final String color;
+    private final String model;
+    private final int year;
 
     public Motorbike(String color, String model, int yearOfProduction) {
         this.model = model;
@@ -12,6 +12,10 @@ public class Motorbike {
         this.year = yearOfProduction;
     }
 
+    /*
+    getColor и getModel использовались для теста в предыдущем дне.
+    Надо ли оставлять неиспользуемые методы текущем задание??
+    */
     public String getColor() {
         return color;
     }
@@ -24,7 +28,7 @@ public class Motorbike {
         return year;
     }
 
-    public void info(){
+    public void info() {
         System.out.println("Это мотоцикл");
     }
 

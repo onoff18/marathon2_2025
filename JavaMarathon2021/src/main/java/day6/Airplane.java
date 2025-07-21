@@ -2,7 +2,7 @@ package day6;
 
 public class Airplane {
 
-    private String manufacturer;
+    private final String manufacturer;
     private int year;
     private int length;
     private int weight;
@@ -14,10 +14,6 @@ public class Airplane {
         this.length = length;
         this.weight = weight;
         this.fuel = 0;
-    }
-
-    public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
     }
 
     public void setYear(int year) {
@@ -32,6 +28,10 @@ public class Airplane {
         this.weight = weight;
     }
 
+
+    /*
+    setFuel нужен по условиям задачи
+    */
     public void setFuel(int fuel) {
         this.fuel = fuel;
     }
@@ -40,13 +40,13 @@ public class Airplane {
         return fuel;
     }
 
-    public void info(){
+    public void info() {
         System.out.printf("Изготовитель: %s, год выпуска: %d, длина: %d," +
-                " вес: %d, количество топлива в баке: %d\n", this.manufacturer, this.year,
+                        " вес: %d, количество топлива в баке: %d\n", this.manufacturer, this.year,
                 this.length, this.weight, this.fuel);
     }
 
-    public void fillUp(int n){
+    public void fillUp(int n) {
         this.fuel += n;
     }
 

@@ -8,12 +8,12 @@ public class Task4 {
         Scanner scanner = new Scanner(System.in);
         double x = scanner.nextDouble();
 
-        if (x >= 5){
-            System.out.println((Math.pow(x,2) - 10) / (x + 7));
+        if (x >= 5) {
+            System.out.println((Math.pow(x, 2) - 10) / (x + 7));
         } else if (x < -2) {
             System.out.println((double) 420);
         } else {
-            System.out.println((x + 3) * (Math.pow(x,2) - 2));
+            System.out.println((x + 3) * (Math.pow(x, 2) - 2));
         }
 
     }

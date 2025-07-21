@@ -8,7 +8,7 @@ public class Task1 {
 
         Scanner scanner = new Scanner(System.in);
 
-        int nums [] = new int[scanner.nextInt()];
+        int nums[] = new int[scanner.nextInt()];
         int moreThanEight = 0;
         int equalsOne = 0;
         int countEvens = 0;
@@ -22,12 +22,12 @@ public class Task1 {
 
         System.out.println(Arrays.toString(nums));
 
-        for (int num : nums){
-            if (num > 8){
+        for (int num : nums) {
+            if (num > 8) {
                 moreThanEight++;
             }
 
-            if (num == 0){
+            if (num == 0) {
                 equalsOne++;
             }
 
@@ -41,18 +41,19 @@ public class Task1 {
         }
 
         System.out.printf("Длина массива - %d\nКоличестве чисел больше 8 - %d\n" +
-                "Количество чисел равных 1 - %d\nКоличество четных чисел - %d\n" +
-                "Количество нечетных чисел - %d\n" +
-                "Сумма всех элементов массива - %d\n",
+                        "Количество чисел равных 1 - %d\nКоличество четных чисел - %d\n" +
+                        "Количество нечетных чисел - %d\n" +
+                        "Сумма всех элементов массива - %d\n",
                 nums.length, moreThanEight, equalsOne, +
-                countEvens, countOdds, sumAllElements);
-    }
-    public static int randomNum (int min, int max){
-        return min + (int)(Math.random() * ((max - min) + 1));
+                        countEvens, countOdds, sumAllElements);
     }
 
-    public static int randomNum (int max){
-        return (int)(Math.random() * (max + 1));
+    public static int randomNum(int min, int max) {
+        return min + (int) (Math.random() * ((max - min) + 1));
+    }
+
+    public static int randomNum(int max) {
+        return (int) (Math.random() * (max + 1));
     }
 
 }

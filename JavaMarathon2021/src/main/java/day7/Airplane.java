@@ -16,6 +16,10 @@ public class Airplane {
         this.fuel = 0;
     }
 
+    /*
+    setManufacturer использовался для теста в предыдущем дне.
+    Надо ли оставлять неиспользуемые методы текущем задание??
+    */
     public void setManufacturer(String manufacturer) {
         this.manufacturer = manufacturer;
     }
@@ -24,6 +28,10 @@ public class Airplane {
         this.year = year;
     }
 
+    /*
+    setLength, setWeight, setFuel использовались для теста в предыдущем дне.
+    Надо ли оставлять неиспользуемые методы текущем задание??
+    */
     public void setLength(int length) {
         this.length = length;
     }
@@ -40,19 +48,23 @@ public class Airplane {
         return fuel;
     }
 
-    public void info(){
+    public void info() {
         System.out.printf("Изготовитель: %s, год выпуска: %d, длина: %d," +
-                " вес: %d, количество топлива в баке: %d\n", this.manufacturer, this.year,
+                        " вес: %d, количество топлива в баке: %d\n", this.manufacturer, this.year,
                 this.length, this.weight, this.fuel);
     }
 
-    public void fillUp(int n){
+    /*
+    fillUp использовался для теста в предыдущем дне.
+    Надо ли оставлять неиспользуемые методы текущем задание??
+    */
+    public void fillUp(int n) {
         this.fuel += n;
     }
 
-    public static void compareAirplanes(Airplane airplane1, Airplane airplane2){
+    public static void compareAirplanes(Airplane airplane1, Airplane airplane2) {
 
-        if (airplane1.length > airplane2.length){
+        if (airplane1.length > airplane2.length) {
             System.out.println("Первый самолет длиннее");
         } else if (airplane1.length < airplane2.length) {
             System.out.println("Второй самолет длиннее");

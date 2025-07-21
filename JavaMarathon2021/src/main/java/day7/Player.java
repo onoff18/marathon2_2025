@@ -11,6 +11,9 @@ public class Player {
     public Player(int stamina) {
         checkPlayers();
         this.stamina = stamina;
+        if (this.stamina > MAX_STAMINA) {
+            this.stamina = MAX_STAMINA;
+        }
     }
 
     public int getStamina() {
@@ -34,7 +37,7 @@ public class Player {
 
         } else {
 
-            this.stamina = 0;
+            this.stamina = MIN_STAMINA;
 
         }
     }
@@ -56,10 +59,10 @@ public class Player {
         }
     }
 
-    private static String selectingEnding (int countPlayers){
+    private static String selectingEnding(int countPlayers) {
         String ending;
 
-        switch (MAX_COUNT_PLAYERS - countPlayers){
+        switch (MAX_COUNT_PLAYERS - countPlayers) {
             case 1:
                 ending = "свободное место";
                 break;

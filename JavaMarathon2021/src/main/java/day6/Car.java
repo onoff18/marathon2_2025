@@ -2,26 +2,18 @@ package day6;
 
 public class Car {
 
+
+    /*
+    Строки color и model использовались для теста в предыдущем дне. Надо ли оставлять в текущем задании??
+    Задача была скопировать
+    */
     private String color;
     private String model;
     private int year;
 
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
+    /*
+    getYearOfProduction использовались для теста в предыдущем дне. Надо ли оставлять в текущем задании??
+    */
     public int getYearOfProduction() {
         return year;
     }
@@ -30,7 +22,7 @@ public class Car {
         this.year = year;
     }
 
-    public void info(){
+    public void info() {
         System.out.println("Это автомобиль");
     }
 

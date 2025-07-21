@@ -7,22 +7,22 @@ public class Task2 {
 
         Player.info();
 
-        Player player1 = new Player(Task1.randomNum(90,100));
-        Player player2 = new Player(Task1.randomNum(90,100));
-        Player player3 = new Player(Task1.randomNum(90,100));
-        Player player4 = new Player(Task1.randomNum(90,100));
+        Player player1 = new Player(Task1.randomNum(90, 100));
+        Player player2 = new Player(Task1.randomNum(90, 100));
+        Player player3 = new Player(Task1.randomNum(90, 100));
+        Player player4 = new Player(Task1.randomNum(90, 100));
 
         System.out.println("Создали игроков - 4");
         Player.info();
 
-        Player player5 = new Player(Task1.randomNum(90,100));
-        Player player6 = new Player(Task1.randomNum(90,100));
+        Player player5 = new Player(Task1.randomNum(90, 100));
+        Player player6 = new Player(Task1.randomNum(90, 100));
 
         System.out.println("Создали игроков - 6");
         Player.info();
 
-        Player player7 = new Player(Task1.randomNum(90,100));
-        Player player8 = new Player(Task1.randomNum(90,100));
+        Player player7 = new Player(Task1.randomNum(90, 100));
+        Player player8 = new Player(Task1.randomNum(90, 100));
 
         System.out.println("Создали игроков - 8");
         Player.info();

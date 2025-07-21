@@ -1,9 +1,9 @@
 package day9.Task2;
 
-public class Rectangle extends Figure{
+public class Rectangle extends Figure {
 
-    private double sideA;
-    private double sideB;
+    private final double sideA;
+    private final double sideB;
 
     public Rectangle(double sideA, double sideB, String color) {
         super.setColor(color);
