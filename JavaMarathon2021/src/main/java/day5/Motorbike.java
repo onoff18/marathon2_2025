@@ -2,9 +2,9 @@ package day5;
 
 public class Motorbike {
 
-    private String color;
-    private String model;
-    private int yearOfProduction;
+    private final String color;
+    private final String model;
+    private final int yearOfProduction;
 
     public Motorbike(String color, String model, int yearOfProduction) {
         this.model = model;

@@ -35,13 +35,13 @@ public abstract class Hero implements PhysAttack {
     }
 
     public static void checkMinHealth(Hero hero) {
-        if (hero.health <= MIN_HEALTH){
+        if (hero.health <= MIN_HEALTH) {
             hero.setHealth(MIN_HEALTH);
         }
     }
 
     public static void checkMaxHealth(Hero hero) {
-        if (hero.health >= MAX_HEALTH){
+        if (hero.health >= MAX_HEALTH) {
             hero.setHealth(MAX_HEALTH);
         }
     }
@@ -51,7 +51,7 @@ public abstract class Hero implements PhysAttack {
         return String.format("%s ** Количество здоровья - %d **", name, health);
     }
 
-    protected static int damageCalculation (int att, int def){
+    protected static int damageCalculation(int att, int def) {
         return att - (att * def / 100);
     }
 }

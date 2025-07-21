@@ -4,9 +4,9 @@ import java.util.List;
 
 public class MusicBand {
 
-    private String name;
-    private int year;
-    private List<String> members;
+    private final String name;
+    private final int year;
+    private final List<String> members;
 
     public MusicBand(String name, int year, List<String> members) {
         this.name = name;
@@ -22,7 +22,7 @@ public class MusicBand {
         return members;
     }
 
-    public  void printMembers(){
+    public void printMembers() {
         System.out.println(members);
     }
 
@@ -36,7 +36,7 @@ public class MusicBand {
                 name, year);
     }
 
-    public static void transferMembers (MusicBand musicBandOut, MusicBand musicBandIn) {
+    public static void transferMembers(MusicBand musicBandOut, MusicBand musicBandIn) {
         musicBandIn.setMembers(musicBandOut.getMembers());
         musicBandOut.members.clear();
     }

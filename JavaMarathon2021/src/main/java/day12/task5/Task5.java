@@ -16,11 +16,10 @@ public class Task5 {
         List<MusicArtist> members2 = new ArrayList<>(Arrays.asList(
                 new MusicArtist("Dasha", 33),
                 new MusicArtist("Masha", 18),
-                new MusicArtist("Glasha", 25)));
+                new MusicArtist("Sasha", 25)));
 
         MusicBand musicBand = new MusicBand("Boys", 2022, members1);
         MusicBand musicBand1 = new MusicBand("Girls", 2022, members2);
-
 
 
         musicBand.printMembers();

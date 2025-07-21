@@ -5,7 +5,7 @@ import java.util.*;
 public class Task3 {
     public static void main(String[] args) {
 
-        List<MusicBand> musicBands = new ArrayList<>(Arrays.asList( new MusicBand("First", 2000),
+        List<MusicBand> musicBands = new ArrayList<>(Arrays.asList(new MusicBand("First", 2000),
                 new MusicBand("Second", 1996),
                 new MusicBand("Third", 1997),
                 new MusicBand("Fourth", 1998),
@@ -26,7 +26,7 @@ public class Task3 {
         List<MusicBand> groupsAfter2000 = new ArrayList<>();
 
         for (MusicBand band : bands) {
-            if(band.getYear() > 2000){
+            if (band.getYear() > 2000) {
                 groupsAfter2000.add(band);
             }
         }

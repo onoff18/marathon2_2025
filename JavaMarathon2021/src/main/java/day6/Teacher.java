@@ -12,12 +12,12 @@ public class Teacher {
         this.academicSubject = academicSubject;
     }
 
-    public void evaluate (Student student){
+    public void evaluate(Student student) {
 
         String evaluation;
-        int rating = Task1.randomNum(2,5);
+        int rating = Task1.randomNum(2, 5);
 
-        switch (rating){
+        switch (rating) {
             case 2:
                 evaluation = "неудовлетворительно";
                 break;
@@ -36,7 +36,7 @@ public class Teacher {
         }
 
         System.out.printf("Преподаватель %s оценил студента с именем %s" +
-                " по предмету %s на оценку %s.", this.name, student.getName(),
+                        " по предмету %s на оценку %s.", this.name, student.getName(),
                 this.academicSubject, evaluation);
 
     }

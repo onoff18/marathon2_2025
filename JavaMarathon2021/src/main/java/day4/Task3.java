@@ -3,7 +3,7 @@ package day4;
 public class Task3 {
     public static void main(String[] args) {
 
-        int nums [][] = new int[12][8];
+        int nums[][] = new int[12][8];
         int maxSumRow = Integer.MIN_VALUE;
         int columnNumberWithMaxSumRow = 0;
 
@@ -14,7 +14,7 @@ public class Task3 {
                 sumRow += nums[i][j];
             }
 
-            if (sumRow >= maxSumRow){
+            if (sumRow >= maxSumRow) {
                 maxSumRow = sumRow;
                 columnNumberWithMaxSumRow = i;
             }

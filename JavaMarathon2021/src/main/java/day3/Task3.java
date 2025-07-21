@@ -15,7 +15,7 @@ public class Task3 {
         while (numberIterations < 5) {
             dividend = scanner.nextDouble();
             divisor = scanner.nextDouble();
-            numberIterations ++;
+            numberIterations++;
 
             if (divisor == 0) {
                 System.out.println("Деление на 0");

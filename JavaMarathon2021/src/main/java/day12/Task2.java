@@ -9,12 +9,13 @@ public class Task2 {
         List<Integer> list = new ArrayList<>();
 
         addEvenNum(list, 0, 30);
-        addEvenNum(list, 300,350);
+        addEvenNum(list, 300, 350);
 
         System.out.println(list);
 
 
     }
+
     public static void addEvenNum(List<Integer> list, int start, int finish) {
 
         for (int i = start; i <= finish; i++) {

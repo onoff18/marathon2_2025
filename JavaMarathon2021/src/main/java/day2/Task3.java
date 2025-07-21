@@ -15,7 +15,7 @@ public class Task3 {
 
         a++;
 
-        while (a<b){
+        while (a < b) {
             if (Math.abs(a % 10) == 5) {
                 System.out.printf("%d ", a);
             }

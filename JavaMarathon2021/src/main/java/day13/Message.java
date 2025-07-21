@@ -6,10 +6,10 @@ import java.util.GregorianCalendar;
 
 public class Message {
 
-    private User sender;
-    private User receiver;
-    private String text;
-    private Date date;
+    private final User sender;
+    private final User receiver;
+    private final String text;
+    private final Date date;
 
     Calendar calendar = new GregorianCalendar();
 
@@ -30,14 +30,6 @@ public class Message {
 
     public String getText() {
         return text;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    public Calendar getCalendar() {
-        return calendar;
     }
 
     @Override

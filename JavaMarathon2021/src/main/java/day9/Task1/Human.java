@@ -1,8 +1,9 @@
 package day9.Task1;
 
+
 public class Human {
 
-    private String name;
+    private final String name;
 
     public Human(String name) {
         this.name = name;

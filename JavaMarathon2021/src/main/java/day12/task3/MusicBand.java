@@ -2,8 +2,8 @@ package day12.task3;
 
 public class MusicBand {
 
-    private String name;
-    private int year;
+    private final String name;
+    private final int year;
 
     public MusicBand(String name, int year) {
         this.name = name;

@@ -5,16 +5,12 @@ import java.util.List;
 
 public class User {
 
-    private String username;
-    private List<User> subscriptions;
+    private final String username;
+    private final List<User> subscriptions;
 
     public User(String username) {
         this.username = username;
         subscriptions = new ArrayList<>();
-    }
-
-    public String getUsername() {
-        return username;
     }
 
     public List<User> getSubscriptions() {
