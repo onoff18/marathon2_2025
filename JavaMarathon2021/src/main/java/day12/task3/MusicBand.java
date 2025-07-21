@@ -16,6 +16,7 @@ public class MusicBand {
 
     @Override
     public String toString() {
-        return String.format("Это группа - %s, год основания - %d\n", name, year);
+        return String.format("Это группа - %s, год основания - %d\n",
+                name, year);
     }
 }

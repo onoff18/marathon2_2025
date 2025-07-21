@@ -9,10 +9,10 @@ public class Task3 {
                 new MusicBand("Second", 1996),
                 new MusicBand("Third", 1997),
                 new MusicBand("Fourth", 1998),
-                new MusicBand("fifth", 1999),
+                new MusicBand("Fifth", 1999),
                 new MusicBand("Sixth", 2000),
                 new MusicBand("Seventh", 2001),
-                new MusicBand("eighth", 2002),
+                new MusicBand("Eighth", 2002),
                 new MusicBand("Ninth", 2003),
                 new MusicBand("Tenth", 2004)));
 
