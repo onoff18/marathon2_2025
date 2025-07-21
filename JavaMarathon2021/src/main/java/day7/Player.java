@@ -11,6 +11,9 @@ public class Player {
     public Player(int stamina) {
         checkPlayers();
         this.stamina = stamina;
+        if (this.stamina > MAX_STAMINA){
+            this.stamina = MAX_STAMINA;
+        }
     }
 
     public int getStamina() {
@@ -34,7 +37,7 @@ public class Player {
 
         } else {
 
-            this.stamina = 0;
+            this.stamina = MIN_STAMINA;
 
         }
     }

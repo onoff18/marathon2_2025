@@ -12,7 +12,7 @@ public class Task4 {
         }
 
         for (int i = 0; i < nums.length - 2; i++) {
-            int sumThreeElement = 0;
+            int sumThreeElement;
             sumThreeElement = nums[i] + nums[i + 1] + nums[i + 2];
 
             if (sumThreeElement > maxSumThreeElement){
