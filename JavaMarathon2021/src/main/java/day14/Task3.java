@@ -9,8 +9,7 @@ import java.util.Scanner;
 public class Task3 {
     public static void main(String[] args) {
 
-        String path = "C:\\Users\\Alesha\\Desktop\\Java\\JavaMarathon2025\\JavaMarathon2021" +
-                "\\src\\main\\resources\\people.txt";
+        String path = "JavaMarathon2021\\src\\main\\resources\\people.txt";
 
         File file = new File(path);
 

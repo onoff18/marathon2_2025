@@ -8,8 +8,7 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
 
-        String path = "C:\\Users\\Alesha\\Desktop\\Java\\JavaMarathon2025\\JavaMarathon2021" +
-                "\\src\\main\\resources\\For14DayTask10numbers.txt";
+        String path = "JavaMarathon2021\\src\\main\\resources\\For14DayTask10numbers.txt";
         File file = new File(path);
 
         printSumDigits(file);
